@@ -1,6 +1,6 @@
 # SmartBartender
-# Busuioc Gabriel-Razvan
-# Faculty of Automatic Control and Computers, UPB
+Busuioc Gabriel-Razvan
+Faculty of Automatic Control and Computers, UPB
 
 Automated Cocktail Drink Machine with Arduino and MIT App Inventor
 
