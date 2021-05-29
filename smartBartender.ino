@@ -105,14 +105,14 @@ void activateBuzzer(){
   noTone(BUZZER_PIN);
 }
 
-// 6000 msec --- 100 ml
+// 12000 msec --- 100 ml
 // time       ---  drink ml
-//-> time = 6000 * drink / 100
+//-> time = 12000 * drink / 100
 void compute_pump_times(){
-  //active pump time must be between 0 and 6000 milliseconds
+  //active pump time must be between 0 and 12000 milliseconds
   //received byte is between 0 and 100 value
   for(int i = 0; i < NO_PUMPS; i++) {
-    pump_times[i] = map(serial_byte_recv[i], 0, 100, 0, 6000);
+    pump_times[i] = map(serial_byte_recv[i], 0, 100, 0, 12000);
   }
 }
 
